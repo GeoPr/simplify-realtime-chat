@@ -1,0 +1,21 @@
+.home {
+  // .home__body
+  &__body {
+    min-height: calc(100vh - 60px);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 20px;
+  }
+  // .home__title
+  &__title {
+    font-size: 3rem;
+  }
+  // .home__text
+  &__text {
+    line-height: 1.5;
+    font-size: 20px;
+    max-width: 500px;
+  }
+}

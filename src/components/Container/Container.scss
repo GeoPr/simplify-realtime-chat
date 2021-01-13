@@ -1,0 +1,15 @@
+.page {
+  // .page__sc
+  &__sc {
+		min-height: calc(100vh - 60px);
+		background: #232332;
+  }
+}
+.sc {
+  // .sc__container
+  &__container {
+  }
+  // .sc__body
+  &__body {
+  }
+}
